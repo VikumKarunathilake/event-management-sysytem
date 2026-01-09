@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environment Variables
+.env
+
+# Logs
+*.log
