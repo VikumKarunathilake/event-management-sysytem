@@ -8,7 +8,8 @@
 *.sln.docstates
 
 # Environment Variables
-.env
 
 # Logs
 *.log
+config.bat
+node_modules

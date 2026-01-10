@@ -42,6 +42,7 @@
             this.btnclear = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
             this.btninsert = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblgrade
@@ -50,7 +51,7 @@
             this.lblgrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblgrade.Location = new System.Drawing.Point(45, 134);
             this.lblgrade.Name = "lblgrade";
-            this.lblgrade.Size = new System.Drawing.Size(51, 16);
+            this.lblgrade.Size = new System.Drawing.Size(50, 16);
             this.lblgrade.TabIndex = 28;
             this.lblgrade.Text = "Grade";
             // 
@@ -100,7 +101,7 @@
             this.lblcontact.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcontact.Location = new System.Drawing.Point(45, 222);
             this.lblcontact.Name = "lblcontact";
-            this.lblcontact.Size = new System.Drawing.Size(60, 16);
+            this.lblcontact.Size = new System.Drawing.Size(59, 16);
             this.lblcontact.TabIndex = 22;
             this.lblcontact.Text = "Contact";
             // 
@@ -110,7 +111,7 @@
             this.lblposition.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblposition.Location = new System.Drawing.Point(45, 174);
             this.lblposition.Name = "lblposition";
-            this.lblposition.Size = new System.Drawing.Size(64, 16);
+            this.lblposition.Size = new System.Drawing.Size(63, 16);
             this.lblposition.TabIndex = 21;
             this.lblposition.Text = "Position";
             // 
@@ -129,7 +130,7 @@
             this.lblmembersname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmembersname.Location = new System.Drawing.Point(45, 91);
             this.lblmembersname.Name = "lblmembersname";
-            this.lblmembersname.Size = new System.Drawing.Size(117, 16);
+            this.lblmembersname.Size = new System.Drawing.Size(116, 16);
             this.lblmembersname.TabIndex = 19;
             this.lblmembersname.Text = "Members Name";
             // 
@@ -139,7 +140,7 @@
             this.llblmembersid.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llblmembersid.Location = new System.Drawing.Point(45, 45);
             this.llblmembersid.Name = "llblmembersid";
-            this.llblmembersid.Size = new System.Drawing.Size(91, 16);
+            this.llblmembersid.Size = new System.Drawing.Size(90, 16);
             this.llblmembersid.TabIndex = 18;
             this.llblmembersid.Text = "Members ID";
             // 
@@ -176,6 +177,17 @@
             this.btninsert.UseVisualStyleBackColor = true;
             this.btninsert.Click += new System.EventHandler(this.btninsert_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(218, 285);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 29;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // frmMembers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +208,7 @@
             this.Controls.Add(this.btnclear);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btninsert);
+            this.Controls.Add(this.btnSearch);
             this.Name = "frmMembers";
             this.Text = "Members";
             this.ResumeLayout(false);
@@ -219,5 +232,6 @@
         private System.Windows.Forms.Button btnclear;
         private System.Windows.Forms.Button btndelete;
         private System.Windows.Forms.Button btninsert;
+        private System.Windows.Forms.Button btnSearch;
     }
 }

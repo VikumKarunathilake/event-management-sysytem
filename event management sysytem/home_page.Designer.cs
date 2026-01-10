@@ -38,7 +38,7 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(408, 275);
+            this.btnExit.Location = new System.Drawing.Point(398, 267);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(62, 31);
             this.btnExit.TabIndex = 9;
@@ -48,7 +48,7 @@
             // btnMembers
             // 
             this.btnMembers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMembers.Location = new System.Drawing.Point(2, 159);
+            this.btnMembers.Location = new System.Drawing.Point(67, 159);
             this.btnMembers.Name = "btnMembers";
             this.btnMembers.Size = new System.Drawing.Size(156, 43);
             this.btnMembers.TabIndex = 8;
@@ -59,7 +59,7 @@
             // btnResult
             // 
             this.btnResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResult.Location = new System.Drawing.Point(247, 159);
+            this.btnResult.Location = new System.Drawing.Point(295, 159);
             this.btnResult.Name = "btnResult";
             this.btnResult.Size = new System.Drawing.Size(165, 43);
             this.btnResult.TabIndex = 7;
@@ -70,7 +70,7 @@
             // btnPerformance
             // 
             this.btnPerformance.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerformance.Location = new System.Drawing.Point(247, 50);
+            this.btnPerformance.Location = new System.Drawing.Point(295, 50);
             this.btnPerformance.Name = "btnPerformance";
             this.btnPerformance.Size = new System.Drawing.Size(165, 43);
             this.btnPerformance.TabIndex = 6;
@@ -81,7 +81,7 @@
             // btnEvent
             // 
             this.btnEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEvent.Location = new System.Drawing.Point(2, 50);
+            this.btnEvent.Location = new System.Drawing.Point(67, 50);
             this.btnEvent.Name = "btnEvent";
             this.btnEvent.Size = new System.Drawing.Size(156, 43);
             this.btnEvent.TabIndex = 5;
@@ -94,7 +94,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(535, 390);
+            this.ClientSize = new System.Drawing.Size(527, 364);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnMembers);
             this.Controls.Add(this.btnResult);

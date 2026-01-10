@@ -40,6 +40,26 @@ namespace event_management_sysytem
             con.Close();
         }
 
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            MySqlConnection con = new MySqlConnection("Server=localhost;Database=EVENTMANAGEMENTSYSTEM;Uid=root;Pwd=;");
+            MySqlCommand search = new MySqlCommand("select * from records where ID ='" + txtPerformanceID.Text + "'", con);
+            con.Open();
+            MySqlDataReader dr = search.ExecuteReader();
+            if (dr.Read())
+            {
+                txtPerformanceName.Text = dr[1].ToString();
+                txtPerformanceType.Text = dr[2].ToString();
+                txtSheduleID.Text = dr[3].ToString();
+                MessageBox.Show("Search Successful");
+            }
+            else
+            {
+                MessageBox.Show("Record not found");
+            }
+            con.Close();
+        }
+
         private void btnClear_Click(object sender, EventArgs e)
         {
 

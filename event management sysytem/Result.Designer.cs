@@ -37,6 +37,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtComptitionID
@@ -69,7 +70,7 @@
             this.lblPlace.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlace.Location = new System.Drawing.Point(50, 122);
             this.lblPlace.Name = "lblPlace";
-            this.lblPlace.Size = new System.Drawing.Size(48, 16);
+            this.lblPlace.Size = new System.Drawing.Size(47, 16);
             this.lblPlace.TabIndex = 14;
             this.lblPlace.Text = "Place";
             // 
@@ -79,7 +80,7 @@
             this.lblParticipantID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblParticipantID.Location = new System.Drawing.Point(50, 79);
             this.lblParticipantID.Name = "lblParticipantID";
-            this.lblParticipantID.Size = new System.Drawing.Size(101, 16);
+            this.lblParticipantID.Size = new System.Drawing.Size(100, 16);
             this.lblParticipantID.TabIndex = 13;
             this.lblParticipantID.Text = "Participant ID";
             // 
@@ -89,7 +90,7 @@
             this.lblCompetitionID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompetitionID.Location = new System.Drawing.Point(50, 38);
             this.lblCompetitionID.Name = "lblCompetitionID";
-            this.lblCompetitionID.Size = new System.Drawing.Size(109, 16);
+            this.lblCompetitionID.Size = new System.Drawing.Size(108, 16);
             this.lblCompetitionID.TabIndex = 12;
             this.lblCompetitionID.Text = "Competition ID";
             // 
@@ -126,6 +127,17 @@
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(177, 222);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 18;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // frmResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -141,6 +153,7 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnInsert);
+            this.Controls.Add(this.btnSearch);
             this.Name = "frmResult";
             this.Text = "    ";
             this.ResumeLayout(false);
@@ -159,5 +172,6 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button btnSearch;
     }
 }

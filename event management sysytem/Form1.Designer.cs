@@ -35,6 +35,7 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.lblScheduleID = new System.Windows.Forms.Label();
             this.lblPerformanceName = new System.Windows.Forms.Label();
             this.lblPerformanceType = new System.Windows.Forms.Label();
@@ -105,6 +106,17 @@
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(170, 209);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(75, 23);
+            this.btnSearch.TabIndex = 23;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // lblScheduleID
             // 
             this.lblScheduleID.AutoSize = true;
@@ -157,6 +169,7 @@
             this.Controls.Add(this.txtPerformanceID);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.lblScheduleID);
             this.Controls.Add(this.lblPerformanceName);
@@ -178,6 +191,7 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label lblScheduleID;
         private System.Windows.Forms.Label lblPerformanceName;
         private System.Windows.Forms.Label lblPerformanceType;

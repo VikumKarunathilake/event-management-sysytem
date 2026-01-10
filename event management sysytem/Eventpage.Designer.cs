@@ -78,7 +78,7 @@
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(199, 293);
+            this.btnSearch.Location = new System.Drawing.Point(188, 293);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 22;
@@ -124,7 +124,7 @@
             this.lblVenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVenue.Location = new System.Drawing.Point(37, 211);
             this.lblVenue.Name = "lblVenue";
-            this.lblVenue.Size = new System.Drawing.Size(52, 16);
+            this.lblVenue.Size = new System.Drawing.Size(51, 16);
             this.lblVenue.TabIndex = 14;
             this.lblVenue.Text = "Venue";
             // 
@@ -134,7 +134,7 @@
             this.lblEventDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEventDate.Location = new System.Drawing.Point(37, 150);
             this.lblEventDate.Name = "lblEventDate";
-            this.lblEventDate.Size = new System.Drawing.Size(84, 16);
+            this.lblEventDate.Size = new System.Drawing.Size(83, 16);
             this.lblEventDate.TabIndex = 13;
             this.lblEventDate.Text = "Event Date";
             // 
@@ -144,7 +144,7 @@
             this.lblEventname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEventname.Location = new System.Drawing.Point(37, 84);
             this.lblEventname.Name = "lblEventname";
-            this.lblEventname.Size = new System.Drawing.Size(92, 16);
+            this.lblEventname.Size = new System.Drawing.Size(91, 16);
             this.lblEventname.TabIndex = 12;
             this.lblEventname.Text = "Event Name";
             // 
@@ -154,7 +154,7 @@
             this.lblEventID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEventID.Location = new System.Drawing.Point(37, 10);
             this.lblEventID.Name = "lblEventID";
-            this.lblEventID.Size = new System.Drawing.Size(66, 16);
+            this.lblEventID.Size = new System.Drawing.Size(65, 16);
             this.lblEventID.TabIndex = 11;
             this.lblEventID.Text = "Event ID";
             // 
